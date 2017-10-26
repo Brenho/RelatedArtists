@@ -1,0 +1,205 @@
+body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        width: 100%;
+        vertical-align: baseline;
+        background: transparent;
+        font-family: 'Raleway', sans-serif;
+        
+    }
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    width: 100%;
+    background-image: url(../img/tape.jpg);
+    background-size: cover;
+    background-position: 75%;
+}
+
+#inside{
+    height: 50%;
+    float: left;
+    padding: 100px;
+    width: 500px;
+}
+
+#inside h1{
+    padding-bottom: 10px;
+}
+
+input{
+    height: 40px;
+    width: 100%;
+    padding-left: 5px;
+    border:none;
+    box-shadow: 0 4px 2px -2px gray; 
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+input:focus{
+    outline: none;
+}
+
+#info{
+    margin: 50px auto;
+    width: 70%;
+    text-align: center;
+}
+
+#image{
+    margin: 15px;
+}
+
+#summary{
+    line-height: 1.5;
+}
+
+#results{
+    clear: both;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#results h1{
+    padding: 15px;
+}
+
+
+#content{
+    margin: 10px;
+    display: inline-block;
+}
+
+#content img{
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+#content span{
+    color: #fff;
+    font: bold 16px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px; 
+    padding: 5px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    
+}
+
+#topArtists{
+    clear: both;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+#topArtists h1{
+    padding: 15px;
+    margin: 15px;
+}
+
+#topArtists img{
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+#topArtists span{
+    color: #fff;
+    font: bold 16px/45px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -1px; 
+    padding: 5px;
+    margin: 0;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+footer{
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 80px;
+}
+
+#footer-icons{
+    margin: 0 auto;
+    width: 50%;
+}
+
+#footer-icons ul{
+    padding: 0;
+}
+
+#footer-icons li{
+    list-style: none;
+    display: inline-block;
+    font-size: 2em;
+    padding: 15px;
+}
+
+#footer-text{
+    margin: 0 auto;
+    width: 50%;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    
+    header{
+        background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../img/head-mb.jpg);
+        height: 70vh;
+    }
+    #inside{
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 80%;
+        text-align: center;
+        font-size: 1.5em;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    input{
+        background-color: rgba(0, 0, 0, 0.5);
+        box-shadow: none;
+        height: 60px;
+    }
+    
+    #topArtists{
+        padding: 0;
+        width: 100%;
+    }
+    
+}
